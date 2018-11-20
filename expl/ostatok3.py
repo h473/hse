@@ -1,0 +1,6 @@
+a = int(input())
+const1 = int(a // 100)
+const2 = int(a // 10 %10)
+const3 = int(a % 10)
+b = int(const1 + const2 + const3)
+print(b)

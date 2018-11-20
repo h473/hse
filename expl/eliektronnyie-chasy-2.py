@@ -1,0 +1,5 @@
+n = int(input())
+h = int(n // 3600 % 24)
+min = int(n // 60 % 60)
+sec = int(n % 60)
+print(h, ":", min // 10, min % 10, ":", sec // 10, sec % 10, sep="")

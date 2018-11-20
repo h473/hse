@@ -1,0 +1,7 @@
+price1 = int(input())
+price2 = int(input())
+count = int(input())
+fullprice = int((price1 * 100 + price2) * count)
+fullprice2 = int(fullprice // 100)
+fullprice3 = int(fullprice % 100)
+print(fullprice2, fullprice3)
