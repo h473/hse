@@ -1,10 +1,10 @@
-def Rev():
+def Rever():
     n = int(input())
     if n != 0:
-        Rev()
+        Rever()
         print(n)
     if n == 0:
         print(0)
 
 
-Rev()
+Rever()
